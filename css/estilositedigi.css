@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -525,3 +526,532 @@ html {
 }
 
 
+=======
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+p {
+  color: #70747a;
+}
+
+nav {
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  height: 85px;
+  background-color: #000000d6;
+  border-radius: 0px 0px 0px 0px;
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.navbaritens {
+  position: absolute;
+  right: 0;
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  margin: 0;
+  font-weight: bold;
+}
+
+.navbaritens li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 35px;
+  font-size: 14px;
+}
+
+.navbaritens a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0, 5s;
+}
+
+.comprarbotao {
+  padding: 15px 20px;
+  background-color: #c41377;
+  border-radius: 10px;
+}
+
+.comprarbotao:hover {
+  background-color: #7a0648;
+  transition: 0.2s;
+}
+
+.novi:hover {
+  color: aqua;
+  border-bottom: 1px solid aqua;
+  border-top: 1px solid aqua;
+  transition: 0.7s;
+}
+
+.digi:hover {
+  color: rgb(31, 212, 64);
+  border-bottom: 1px solid rgb(31, 212, 64);
+  border-top: 1px solid rgb(31, 212, 64);
+  transition: 0.7s;
+}
+
+.comp:hover {
+  color: rgb(212, 133, 31);
+  border-bottom: 1px solid rgb(212, 133, 31);
+  border-top: 1px solid rgb(212, 133, 31);
+  transition: 0.7s;
+}
+
+main {
+  background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202505/1320/cac5d76bf15a8d4d2a5b1735c5c4528d04473c41697a6989.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20rem 0;
+  position: relative;
+  top: -90px;
+  border-radius: 0 0 30px 30px;
+}
+
+.mainbanner {
+  max-width: 43%;
+  min-height: 15vh; /* altura mínima */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza verticalmente */
+  align-items: flex-start; /* mantém alinhado à esquerda */
+  margin: 0 auto; /* centraliza horizontalmente */
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7px);
+  background-position: center;
+  padding: 1rem 0;
+  border-radius: 20px;
+  margin-left: 2rem;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.mainbanner h1,
+.mainbanner p {
+  color: #fff;
+  padding-left: 5%;
+  text-shadow: #000 3px 2px 3px;
+  font-weight: bold;
+}
+
+.mainbanner h1 {
+  font-size: 38px;
+}
+
+.mainbanner p {
+  font-size: 20px;
+}
+
+.novidades {
+  padding: 2rem 0;
+  margin-top: -75px;
+}
+
+.novidades ul {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.novidades li {
+  max-width: 30%;
+  flex: 1 1 200px;
+  list-style: none;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background: linear-gradient(white, white) padding-box,
+    /* cor interna */
+      linear-gradient(
+        45deg,
+        rgb(2, 255, 255) 0%,
+        /* branco no meio */ rgba(255, 25, 150, 1) 100%
+          /* rosa no canto inferior direito */
+      )
+      border-box;
+}
+
+.novidades img {
+  width: 50%;
+  padding: 1rem;
+}
+
+.novidades h3 {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.novidades p {
+  line-height: 24px;
+}
+
+.versoes {
+  background-color: rgb(247, 194, 74);
+  border-radius: 30px 30px 0 0;
+}
+
+.versoes h2 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.versoescontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto 0;
+}
+
+.edicoes {
+  flex: 1;
+  max-width: 450px;
+  margin: 0 20px;
+  padding-bottom: 3%;
+}
+
+.edicoes ul {
+  padding: 10% 0 5% 0;
+  background-color: rgb(9, 54, 97);
+  border-radius: 20px;
+}
+
+.edicoes li {
+  height: 40px;
+  line-height: 5px;
+  list-style: none;
+  color: rgb(247, 194, 74);
+  padding-left: 0%;
+  text-align: center;
+}
+
+.edicoes p {
+  width: 450px;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+  background-color: #c41377;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  top: +20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section .botao {
+  padding: 15px 20px;
+  background-color: #c41377;
+  color: #fff;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+section .botao:hover {
+  background-color: #f6068e;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.procurar {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.withthewill.net/timestranger01_march21_2025.jpg)
+      center/cover no-repeat;
+  text-align: center;
+  background-position-y: 17%;
+  padding-bottom: 5%;
+  border-radius: 0 0 30px 30px;
+  transition: all 0.6s ease;
+  transform-origin: top center;
+}
+
+.procurar.expandir {
+  transform: scale(1.02);
+  background-position-y: 15%;
+  padding-bottom: 3%;
+}
+
+.procurar h2 {
+  padding: 5rem 0 2rem 0;
+  color: #fff;
+}
+
+.procurar input {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: none;
+}
+
+.procurar input[type="text"] {
+  width: 60%;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.procurar input[type="submit"] {
+  background-color: #c41377;
+  padding: 15px 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.procurar input[type="submit"]:hover {
+  background-color: #f6068e;
+  transition: 0.2s;
+}
+
+.faleconosco {
+  text-align: center;
+  padding: 5rem 0 2rem 0;
+}
+
+.faleconosco h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.faleconosco p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.faleconosco input,
+.faleconosco textarea {
+  width: 30%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 10px 20px;
+}
+
+.faleconosco textarea {
+  display: block;
+  margin: 0 auto 20px;
+  width: 61%;
+  height: 10%;
+  padding-top: 5px;
+}
+
+form .botaoenviar {
+  width: 20%;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(0, 106, 255);
+  color: #fff;
+}
+
+form .botaoenviar:hover {
+  background-color: rgba(0, 106, 255, 0.8);
+  transition: 0.7s;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0 100px;
+}
+
+@media (max-width: 1100px) {
+  .mainbanner {
+    width: 40%;
+    padding: 1rem;
+    min-height: 13vh;
+  }
+
+  .mainbanner h1 {
+    font-size: 40px;
+    line-height: 85%;
+  }
+
+  .mainbanner p {
+    font-size: 18px;
+    padding-top: 2%;
+  }
+
+  .novidades ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .novidades li {
+    max-width: 70%;
+    margin: 25px auto;
+  }
+
+  .versoescontainer {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .edicoes {
+    max-width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .edicoes p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbaritens {
+    width: 100%;
+    display: inline-block;
+    font-size: 2px;
+    text-align: right;
+  }
+
+  .navbaritens li {
+    font-size: 10px;
+    margin-left: 15px;
+  }
+
+  .comprarbotao {
+    padding: 10px 15px;
+    background-color: #c41377;
+    border-radius: 10px;
+  }
+
+  .mainbanner h1,
+  .mainbanner p {
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  main {
+    background-size: cover;
+    padding: 10rem 0;
+  }
+
+  .mainbanner {
+    width: 35%;
+    height: 17rem;
+    padding-left: 2%;
+    min-height: auto; /* deixa a altura se ajustar ao conteúdo */
+    /* centraliza no meio da tela */
+    /* centraliza texto também */
+  }
+
+  .mainbanner h1 {
+    font-size: 35px;
+  }
+
+  .mainbanner p {
+    font-size: 16px;
+    max-width: 500px;
+  }
+
+  .versoes h2 {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: -50px;
+    padding: 2rem 0;
+  }
+
+  .faleconosco input,
+  .faleconosco textarea {
+    width: 75%;
+  }
+
+  .faleconosco h2,
+  .faleconosco p {
+    padding: 0 10% 0 10%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+#resultado {
+  margin-top: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+#resultado img {
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+#resultado .card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 20px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.5s ease; /* controla suavidade da transição */
+}
+
+/* Quando aparecer */
+#resultado.mostrar .card {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#botaosabermais {
+  display: inline-block;
+  background-color: #c41377;
+  margin-top: 8px;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+}
+
+#botaosabermais:hover {
+  background-color: #f6068e;
+  transition: 0.2s;
+}
+
+
+>>>>>>> ad1a1a4 (Salvando arquivos locais antes do pull)
