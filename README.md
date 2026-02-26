@@ -2,10 +2,24 @@ Digimon Story: Time Stranger – Study Project
 
 Este projeto nasceu do interesse em explorar a criação de um website temático aproveitando o recente lançamento do novo jogo da franquia. O objetivo principal foi consolidar conhecimentos de front-end, criando uma interface moderna e funcional para apresentar informações sobre o game.
 
-<video width="800" controls>
-  <source src="https://raw.githubusercontent.com/regisazevedoo/digimon-time-stranger/main/video/DigimonTS.mp4" type="video/mp4">
-  Seu navegador não suporta vídeos.
-</video>
+<table border="0">
+  <tr>
+    <td>
+      <img src="./print/print1.png" alt="Tela Inicial" width="600">
+    </td>
+    <td>
+      <img src="./print/print2.png" alt="Lista de Digimons" width="600">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./print/print3.png" alt="Detalhes do Card" width="600">
+    </td>
+    <td>
+      <img src="./print/busca.gif" alt="Demonstração da Busca" width="600">
+    </td>
+  </tr>
+</table>
 
 <br>
 🚀 Foco do Estudo
