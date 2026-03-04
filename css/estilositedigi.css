@@ -162,13 +162,7 @@ main {
   border-radius: 30px;
   background:
     linear-gradient(white, white) padding-box,
-    /* cor interna */
-    linear-gradient(
-        45deg,
-        rgb(2, 255, 255) 0%,
-        /* branco no meio */ rgba(255, 25, 150, 1) 100%
-          /* rosa no canto inferior direito */
-      )
+    linear-gradient(45deg, rgb(2, 255, 255) 0%, rgba(255, 25, 150, 1) 100%)
       border-box;
 }
 
@@ -256,6 +250,7 @@ main {
 }
 
 section .botao {
+  color: #fff;
   width: 80%;
   margin: 15px auto;
   position: static;
@@ -267,6 +262,20 @@ section .botao:hover {
   background-color: #f6068e;
   cursor: pointer;
   transition: 0.2s;
+}
+
+.botao a,
+.btn-comprar a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.botao a:visited {
+  color: inherit;
 }
 
 .procurar {
@@ -458,8 +467,8 @@ footer {
     display: none;
   }
 
-  .navbaritens li.botao, 
-  .navbaritens .botao { 
+  .navbaritens li.botao,
+  .navbaritens .botao {
     display: block !important;
     margin: 0;
   }
