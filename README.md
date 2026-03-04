@@ -1,4 +1,6 @@
-Digimon Story: Time Stranger – Study Project
+<h1>Digimon Story: Time Stranger – Study Project</h1>
+
+Confira em: <a href="https://regisazevedoo.github.io/Digimon-Time-Stranger/" target="_blank">regisazevedoo.github.io/Digimon-Time-Stranger/</a>
 
 Este projeto nasceu do interesse em explorar a criação de um website temático aproveitando o recente lançamento do novo jogo da franquia. O objetivo principal foi consolidar conhecimentos de front-end, criando uma interface moderna e funcional para apresentar informações sobre o game.
 
@@ -45,14 +47,3 @@ Autorização de Uso: Estabeleci contato direto com a equipe do site Grindosaur 
 Acordo de Uso: O projeto foi aprovado para fins Educacionais e de Portfólio, respeitando os termos de serviço da fonte de dados.
 
 Créditos: Todas as imagens e links de perfis são creditados ao Grindosaur.com.
-
-<br>
-🏁 Como visualizar
-1. Clone o repositório.
-
-2. Abra o arquivo index.html no seu navegador.
-
-3. Teste a função searchName digitando o nome de um Digimon (ex: Renamon) para gerar o card dinâmico.
-
-<br>
-*Projeto para estudo. Não haverá sorteio de cópia do jogo.
